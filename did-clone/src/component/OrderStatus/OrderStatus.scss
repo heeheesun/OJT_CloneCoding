@@ -1,0 +1,30 @@
+$orange: #f2b700;
+$lightgreen: #97d700;
+$green: #008938;
+
+.stateTitle {
+    width: 638px;
+    height: 195px;
+    margin: 40px auto 39px auto;
+    background-color: $orange;
+
+    &.orange {
+        background: $orange ;
+    }
+    &.lightgreen {
+        background: $lightgreen;
+    }
+    &.green {
+        background: $green;
+    }
+}
+
+.stateText {
+    width: 638px;
+    height: 186px;
+}
+
+.stateBody {
+    width: 638px;
+    height: inherit;
+}

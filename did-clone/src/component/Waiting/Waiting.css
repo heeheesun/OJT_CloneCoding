@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url(../font/SCDream6.otf);
+}
+.numberBox0 {
+    width: 180px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    background: #e6e6e6;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "S-CoreDream-6Bold";
+    font-size: 3em;
+}
+.numberBox1 {
+    width: 180px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    background: #e6e6e6;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "S-CoreDream-6Bold";
+    font-size: 3em;
+}
+.numberBox1:first-child {
+    width: 380px;
+    grid-column-start: 1;
+	grid-column-end: 3;
+}
